@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.thread.MyThread1"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreading.thread.MyThread2"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.thread.MyThread1"/>
+</qualifiedTypeNameHistroy>
