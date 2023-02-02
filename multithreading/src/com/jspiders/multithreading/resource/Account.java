@@ -12,13 +12,13 @@ public class Account {
 		return this.accountBalance;
 	}
 	
-	public void deposit(double amount) {
+	public synchronized void deposit(double amount) {
 		System.out.println("Depositing " + amount + " in account");
 		accountBalance += amount;
 		System.out.println("Current balance : " + checkBalance());
 	}
 	
-	public void withdraw(double amount) {
+	public synchronized void withdraw(double amount) {
 		System.out.println("Withdrawing " + amount + " from account");
 		accountBalance -= amount;
 		System.out.println("Current balance : " + checkBalance());
