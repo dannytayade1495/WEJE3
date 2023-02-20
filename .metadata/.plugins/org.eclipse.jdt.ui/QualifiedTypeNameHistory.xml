@@ -5,4 +5,18 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.thread.MyThread1"/>
+    <fullyQualifiedTypeName name="com.jspiders.singletonpattern.object.SingleEager"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.inter.Browser"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.object.Chrome"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.object.Firefox"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.object.Safari"/>
+    <fullyQualifiedTypeName name="com.jspiders.factorypattern.object.Edge"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.jspiders.builderpattern.builder.MobileBuilder"/>
+    <fullyQualifiedTypeName name="com.jspiders.builderpattern.object.Mobile"/>
+    <fullyQualifiedTypeName name="com.jspiders.adapterpattern.classentity.Employee"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.events.Event"/>
+    <fullyQualifiedTypeName name="com.jspiders.adapterpattern.interfaceentity.Events"/>
+    <fullyQualifiedTypeName name="com.jspiders.adapterpattern.adapter.EmpEventsAdapter"/>
 </qualifiedTypeNameHistroy>

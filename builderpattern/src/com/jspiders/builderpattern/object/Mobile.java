@@ -32,7 +32,7 @@ public class Mobile {
 	public String toString() {
 		return "Mobile"
 				+ "\nbrand : " + brand 
-				+ "\nmode : " + model 
+				+ "\nmodel : " + model 
 				+ "\nprice : " + price 
 				+ "\ncolour : " + colour
 				+ "\nfront_cam : " + front_cam 
@@ -42,7 +42,4 @@ public class Mobile {
 				+ "\nprocessor : " + processor 
 				+ "\nos : " + os;
 	}
-	
-	
-
 }
