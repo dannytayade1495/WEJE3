@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=hibernate/C:\/Users\/Dhananjay\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.6.14.Final\/hibernate-core-5.6.14.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.6.14.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.jpa(HibernatePersistenceProvider.class[HibernatePersistenceProvider" modifiers="33" timestamp="1677230619627"/>
+</typeInfoHistroy>
