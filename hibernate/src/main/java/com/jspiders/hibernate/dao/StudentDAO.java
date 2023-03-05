@@ -40,10 +40,10 @@ public class StudentDAO {
 			entityTransaction.begin();
 			
 			StudentDTO student = new StudentDTO();
-			student.setId(1);
-			student.setName("Pallavi");
-			student.setEmail("pallavi@gmail.com");
-			student.setContact(9876543210L);
+			student.setId(2);
+			student.setName("Ajinkya");
+			student.setEmail("ajinkya@gmail.com");
+			student.setContact(9876541320L);
 			student.setCity("Pune");
 			entityManager.persist(student);
 			
