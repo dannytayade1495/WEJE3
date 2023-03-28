@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/Mar/2023:16:04:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:04:48 +0530] "GET /multiplayerjsp/MusicPlayer.jsp HTTP/1.1" 200 353
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:04:52 +0530] "GET /multiplayerjsp/AddSong.jsp HTTP/1.1" 200 628
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:15:11 +0530] "GET /jsp/EmpRegistration.jsp HTTP/1.1" 200 675
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:15:19 +0530] "GET /jsp/EmpRegistration.jsp?id=&name=&email= HTTP/1.1" 200 675
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:17:08 +0530] "GET /jsp/EmpRegistration.jsp?id=1&name=Ramkrushna&email=ram@gmail.com HTTP/1.1" 200 675
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:19:44 +0530] "GET /jsp/EmpRegistration.jsp?id=1&name=Ramkrushnahari&email=ram@gmail.com HTTP/1.1" 200 710
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:19:48 +0530] "GET /jsp/EmpRegistration.jsp HTTP/1.1" 200 710
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:20:03 +0530] "POST /jsp/EmpRegistration.jsp HTTP/1.1" 200 710
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:40:09 +0530] "GET /jsp/EmpRegistration.jsp HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:40:27 +0530] "POST /jsp/EmpRegistration.jsp HTTP/1.1" 200 816
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:41:18 +0530] "GET /jsp/EmpRegistration.jsp HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:41:36 +0530] "POST /jsp/EmpRegistration.jsp HTTP/1.1" 200 816
+0:0:0:0:0:0:0:1 - - [24/Mar/2023:16:41:56 +0530] "POST /jsp/EmpRegistration.jsp HTTP/1.1" 200 816

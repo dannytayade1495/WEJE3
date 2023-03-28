@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;META-INF&apos; to &apos;hibernatemanytomany/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;hibernatemanytoone&apos;&#x0D;&#x0A;- Destination element: &apos;hibernatemanytomany/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;META-INF&apos;" description="Copy folder" destination="=hibernatemanytomany/src\/main\/resources" element1="src/main/resources/META-INF" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1678362281506" units="0" version="1.0"/>
+</session>

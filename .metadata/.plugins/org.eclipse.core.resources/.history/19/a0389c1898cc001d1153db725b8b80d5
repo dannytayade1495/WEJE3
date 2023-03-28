@@ -1,0 +1,5 @@
+package com.jspiders.springcorexml.beans;
+
+public class StudentBean {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jspiders.singletonpattern.object.SingletonLazyDemo&apos; to &apos;SingletonLazy&apos;&#x0D;&#x0A;- Original project: &apos;singletonpattern&apos;&#x0D;&#x0A;- Original element: &apos;com.jspiders.singletonpattern.object.SingletonLazyDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jspiders.singletonpattern.object.SingletonLazy&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SingletonLazyDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.jspiders.singletonpattern.object{SingletonLazyDemo.java[SingletonLazyDemo" matchStrategy="1" name="SingletonLazy" qualified="false" references="true" similarDeclarations="true" stamp="1676548462967" textual="false" version="1.0"/>
+</session>

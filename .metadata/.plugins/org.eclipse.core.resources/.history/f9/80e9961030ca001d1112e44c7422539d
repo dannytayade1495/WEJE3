@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Song Page</title>
+</head>
+<body>
+
+	<div align="center">
+		<form action="">
+			<fieldset>
+				<legend style="margin: auto;">Add Song</legend>
+				<table>
+					<tr>
+						<td>Id</td>
+						<td><input type="text" name="id"></td>
+					</tr>
+					<tr>
+						<td>Name</td>
+						<td><input type="text" name="songName"></td>
+					</tr>
+					<tr>
+						<td>Singer</td>
+						<td><input type="text" name="singerName"></td>
+					</tr>
+				</table>
+			</fieldset>
+			<input type="submit" value="Add">
+		</form>
+	</div>
+	
+	<%
+	
+	%>
+
+</body>
+</html>

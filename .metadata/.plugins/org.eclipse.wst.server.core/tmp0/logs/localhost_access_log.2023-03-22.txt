@@ -1,0 +1,14 @@
+127.0.0.1 - - [22/Mar/2023:16:13:38 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:41 +0530] "GET /multiplayerjsp/AddSong.jsp HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:52 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:52 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:53 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:54 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:54 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:55 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:13:56 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:18:40 +0530] "GET /multiplayerjsp/MusicPlayer.jsp HTTP/1.1" 200 353
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:18:59 +0530] "GET /multiplayerjsp/AddSong.jsp HTTP/1.1" 200 628
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:19:30 +0530] "GET /multiplayerjsp/AddSong.jsp HTTP/1.1" 200 628
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:19:40 +0530] "GET /multiplayerjsp/AddSong.jsp?id=&songName=&singerName= HTTP/1.1" 200 628
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:16:22:14 +0530] "GET /multiplayerjsp/AddSong.jsp HTTP/1.1" 200 628
