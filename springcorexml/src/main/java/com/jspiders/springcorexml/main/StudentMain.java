@@ -9,11 +9,15 @@ public class StudentMain {
 	
 	public static void main(String[] args) {
 		ApplicationContext context = 
-				new ClassPathXmlApplicationContext("StudentConfig.xml");
+				new ClassPathXmlApplicationContext
+											("StudentConfig.xml");
 		
-		StudentBean student = context.getBean(StudentBean.class);
-		
-		System.out.println(student);
+		StudentBean student1 = (StudentBean) context.getBean
+													("student1");
+		System.out.println(student1);
+		StudentBean student2 = (StudentBean) context.getBean
+													("student2");
+		System.out.println(student2);
 		
 		((ClassPathXmlApplicationContext)context).close();
 		
