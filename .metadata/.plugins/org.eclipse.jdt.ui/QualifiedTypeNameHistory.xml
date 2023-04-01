@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.StudentDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.DriverDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernateonetoone.dto.CarDTO"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 </qualifiedTypeNameHistroy>

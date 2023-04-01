@@ -4,4 +4,5 @@
   <module moduleId="org.eclipse.jst.jee.server:servlets" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:springmvc" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:multiplayerjsp" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:springmvc" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>
