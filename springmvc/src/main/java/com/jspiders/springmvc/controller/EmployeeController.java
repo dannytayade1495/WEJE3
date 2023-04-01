@@ -11,5 +11,11 @@ public class EmployeeController {
 	public String home() {
 		return "Home";
 	}
+	
+	//Add Controller
+	@GetMapping("/add")
+	public String addPage() {
+		return "Add";
+	}
 
 }
