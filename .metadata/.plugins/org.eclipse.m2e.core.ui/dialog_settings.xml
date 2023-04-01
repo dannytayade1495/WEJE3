@@ -30,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.jspiders.springmvc"/>
 			<item value="com.jspiders.springcoreannotation"/>
 			<item value="com.jspiders.springcorexml"/>
 			<item value="com.jspiders.hibernatejpql"/>
@@ -43,6 +44,7 @@
 			<item value="com.jspiders"/>
 		</list>
 		<list key="artifactId">
+			<item value="springmvc"/>
 			<item value="springcoreannotation"/>
 			<item value="springcorexml"/>
 			<item value="hibernatejpql"/>
