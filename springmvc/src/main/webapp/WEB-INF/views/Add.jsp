@@ -12,7 +12,7 @@
 	<div align="center">
 		<form action="" method="">
 			<fieldset>
-				<legend></legend>
+				<legend>:::Add Employee:::</legend>
 				<table>
 					<tr>
 						<td>Name</td>
