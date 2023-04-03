@@ -34,7 +34,7 @@ public class EmployeeRepository {
 		}
 	}
 	
-	public void addEmployee(String name, String email, 
+	public EmployeePOJO addEmployee(String name, String email, 
 							long contact, String designation,
 							double salary) {
 		openConnection();
@@ -48,5 +48,6 @@ public class EmployeeRepository {
 		manager.persist(employee);
 		transaction.commit();
 		closeConnection();
+		return employee;
 	}
 }
