@@ -20,4 +20,9 @@ public class EmployeeService {
 		return employee;
 	}
 
+	public EmployeePOJO searchEmployee(int id) {
+		EmployeePOJO employee = repository.searchEmployee(id);
+		return employee;
+	}
+
 }

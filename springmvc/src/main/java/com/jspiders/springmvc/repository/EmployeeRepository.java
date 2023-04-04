@@ -50,4 +50,13 @@ public class EmployeeRepository {
 		closeConnection();
 		return employee;
 	}
+
+	public EmployeePOJO searchEmployee(int id) {
+		openConnection();
+		transaction.begin();
+		EmployeePOJO employee = manager.find(EmployeePOJO.class, id);
+		transaction.commit();
+		closeConnection();
+		return employee;
+	}
 }

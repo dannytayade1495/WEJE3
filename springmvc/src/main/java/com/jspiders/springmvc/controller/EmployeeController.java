@@ -12,40 +12,56 @@ import com.jspiders.springmvc.service.EmployeeService;
 
 @Controller
 public class EmployeeController {
-	
+
 	@Autowired
 	private EmployeeService service;
-	
-	//Home Controller
+
+	// Home Controller
 	@GetMapping("/home")
 	public String home() {
 		return "Home";
 	}
-	
-	//Add Page Controller
+
+	// Add Page Controller
 	@GetMapping("/add")
 	public String addPage() {
 		return "Add";
 	}
-	
-	//Add Data Controller
+
+	// Add Data Controller
 	@PostMapping("/add")
-	public String add(@RequestParam String name,
-						@RequestParam String email,
-						@RequestParam long contact,
-						@RequestParam String designation,
-						@RequestParam double salary,
-						ModelMap map) {
-		EmployeePOJO employee = service.
-				addEmployee(name, email, contact, designation, salary);
+	public String add(@RequestParam String name, @RequestParam String email, @RequestParam long contact,
+			@RequestParam String designation, @RequestParam double salary, ModelMap map) {
+		EmployeePOJO employee = service.addEmployee(name, email, contact, designation, salary);
 		if (employee != null) {
-			//Success response
+			// Success response
 			map.addAttribute("msg", "Data added successfully..!!");
 			return "Add";
 		}
-		//Failure response
+		// Failure response
 		map.addAttribute("msg", "Data not added successfully..!!");
 		return "Add";
+	}
+
+	// Search Page Controller
+	@GetMapping("/search")
+	public String searchPage() {
+		return "Search";
+	}
+
+	// Search Data Controller
+	@PostMapping("/search")
+	public String search(@RequestParam int id, ModelMap map) {
+		EmployeePOJO employee = service.searchEmployee(id);
+		if (employee != null) {
+			// Success response
+			map.addAttribute("msg", "Employee data found..!!");
+			map.addAttribute("emp", employee);
+			return "Search";
+		}
+		// Failure response
+		map.addAttribute("msg", "Data not found..!!");
+		return "Search";
 	}
 
 }
