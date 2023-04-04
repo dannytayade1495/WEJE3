@@ -1,10 +1,11 @@
 <%@page import="com.jspiders.springmvc.pojo.EmployeePOJO"%>
+<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <jsp:include page="NavBar.jsp" />
 <%
 String msg = (String) request.getAttribute("msg");
-EmployeePOJO employee = (EmployeePOJO) request.getAttribute("emp");
+List<EmployeePOJO> employees = (List<EmployeePOJO>) request.getAttribute("empList");
 %>
 <!DOCTYPE html>
 <html>
@@ -12,7 +13,6 @@ EmployeePOJO employee = (EmployeePOJO) request.getAttribute("emp");
 <meta charset="UTF-8">
 <title>Employee Management</title>
 <style type="text/css">
-
 form {
 	margin-top: 10px;
 }
@@ -61,11 +61,10 @@ body {
 </style>
 </head>
 <body>
-
 	<div align="center">
-		<form action="./search" method="post">
+		<form action="./remove" method="post">
 			<fieldset>
-				<legend>:::Search Employee:::</legend>
+				<legend>:::Remove Employee:::</legend>
 				<table>
 					<tr>
 						<td>Enter ID</td>
@@ -73,19 +72,13 @@ body {
 					</tr>
 				</table>
 			</fieldset>
-			<input type="submit" value="Search">
+			<input type="submit" value="Remove">
 		</form>
+		<%if (msg != null){ %>
+		<h3><%=msg %> </h3>
+		<%} %>
 		<%
-		if (msg != null) {
-		%>
-		<h3>
-			<%=msg%>
-		</h3>
-		<%
-		}
-		%>
-		<%
-		if (employee != null) {
+		if (employees != null) {
 		%>
 		<table id="data">
 			<thead>
@@ -98,19 +91,25 @@ body {
 					<td>Salary</td>
 				</tr>
 			</thead>
+			<%
+			for (EmployeePOJO pojo : employees) {
+			%>
 			<tr>
-				<td><%=employee.getId()%></td>
-				<td><%=employee.getName()%></td>
-				<td><%=employee.getEmail()%></td>
-				<td><%=employee.getContact()%></td>
-				<td><%=employee.getDesignation()%></td>
-				<td><%=employee.getSalary()%></td>
+				<td><%=pojo.getId()%></td>
+				<td><%=pojo.getName()%></td>
+				<td><%=pojo.getEmail()%></td>
+				<td><%=pojo.getContact()%></td>
+				<td><%=pojo.getDesignation()%></td>
+				<td><%=pojo.getSalary()%></td>
 			</tr>
+			<%
+			}
+			%>
 		</table>
+
 		<%
 		}
 		%>
 	</div>
-
 </body>
 </html>

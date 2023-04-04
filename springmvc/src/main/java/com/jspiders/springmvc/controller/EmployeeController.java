@@ -1,5 +1,7 @@
 package com.jspiders.springmvc.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -62,6 +64,33 @@ public class EmployeeController {
 		// Failure response
 		map.addAttribute("msg", "Data not found..!!");
 		return "Search";
+	}
+
+	// Remove Page Controller
+	@GetMapping("/remove")
+	public String removePage(ModelMap map) {
+		List<EmployeePOJO> employees = service.searchAllEmployees();
+		map.addAttribute("empList", employees);
+		return "Remove";
+	}
+
+	// Remove Data Controller
+	@PostMapping("/remove")
+	public String remove(@RequestParam int id, ModelMap map) {
+		EmployeePOJO employee = service.searchEmployee(id);
+		if (employee != null) {
+			// Success response
+			service.removeEmployee(id);
+			List<EmployeePOJO> employees = service.searchAllEmployees();
+			map.addAttribute("empList", employees);
+			map.addAttribute("msg", "Data removed successfully..!!");
+			return "Remove";
+		}
+		// Failure response
+		List<EmployeePOJO> employees = service.searchAllEmployees();
+		map.addAttribute("empList", employees);
+		map.addAttribute("msg", "Data does not exist..!!");
+		return "Remove";
 	}
 
 }

@@ -1,5 +1,7 @@
 package com.jspiders.springmvc.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,6 +25,15 @@ public class EmployeeService {
 	public EmployeePOJO searchEmployee(int id) {
 		EmployeePOJO employee = repository.searchEmployee(id);
 		return employee;
+	}
+
+	public List<EmployeePOJO> searchAllEmployees() {
+		List<EmployeePOJO> employees = repository.searchAllEmployees();
+		return employees;
+	}
+
+	public void removeEmployee(int id) {
+		repository.removeEmployee(id);
 	}
 
 }
