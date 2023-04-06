@@ -6,7 +6,7 @@
 	id="WebApp_ID" version="4.0">
 	<display-name>springmvc</display-name>
 	<welcome-file-list>
-		<welcome-file>/WEB-INF/views/Home.jsp</welcome-file>
+		<welcome-file>/WEB-INF/views/Login.jsp</welcome-file>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
 		<welcome-file>index.htm</welcome-file>

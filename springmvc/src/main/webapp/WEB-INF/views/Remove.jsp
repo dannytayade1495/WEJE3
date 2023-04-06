@@ -31,6 +31,14 @@ fieldset table {
 	text-align: left;
 }
 
+thead {
+	color: white;
+	width: 100%;
+	background: #000;
+	padding: ($half-spacing-unit* 1.5) 0;
+	width: 100%;
+}
+
 fieldset {
 	margin: 15px 520px;
 	text-align: center;
@@ -74,9 +82,14 @@ body {
 			</fieldset>
 			<input type="submit" value="Remove">
 		</form>
-		<%if (msg != null){ %>
-		<h3><%=msg %> </h3>
-		<%} %>
+		<%
+		if (msg != null) {
+		%>
+		<h3><%=msg%>
+		</h3>
+		<%
+		}
+		%>
 		<%
 		if (employees != null) {
 		%>

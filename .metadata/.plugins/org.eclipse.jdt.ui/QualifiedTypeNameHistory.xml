@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernatemanytoone.dto.TeamDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernatemanytoone.dto.PlayerDTO"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernatemanytomany.dto.CustomerDTO"/>
@@ -13,7 +12,6 @@
     <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Query"/>
     <fullyQualifiedTypeName name="com.jspiders.hibernatejpql.dto.EmployeeDTO"/>
     <fullyQualifiedTypeName name="javax.servlet.GenericServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
@@ -24,7 +22,6 @@
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.beans.StudentBean"/>
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.beans.AadharBean"/>
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.beans.PersonBean"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.beans.PlayerBean"/>
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.beans.TeamBean"/>
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.beans.TrainBean"/>
@@ -44,7 +41,6 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
@@ -53,11 +49,15 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="com.jspiders.springmvc.pojo.EmployeePOJO"/>
     <fullyQualifiedTypeName name="com.jspiders.springmvc.repository.EmployeeRepository"/>
     <fullyQualifiedTypeName name="com.jspiders.springmvc.service.EmployeeService"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+    <fullyQualifiedTypeName name="com.jspiders.springmvc.pojo.EmployeePOJO"/>
 </qualifiedTypeNameHistroy>

@@ -36,4 +36,9 @@ public class EmployeeService {
 		repository.removeEmployee(id);
 	}
 
+	public void updateEmployee(int id, String name, String email, long contact, String designation, double salary) {
+		repository.updateEmployee(id, name, email, contact, designation, salary);
+		
+	}
+
 }

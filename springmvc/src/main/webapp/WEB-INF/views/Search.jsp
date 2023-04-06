@@ -12,7 +12,6 @@ EmployeePOJO employee = (EmployeePOJO) request.getAttribute("emp");
 <meta charset="UTF-8">
 <title>Employee Management</title>
 <style type="text/css">
-
 form {
 	margin-top: 10px;
 }
@@ -31,6 +30,14 @@ fieldset table {
 	text-align: left;
 }
 
+thead {
+	color: white;
+	width: 100%;
+	background: #000;
+	padding: ($half-spacing-unit* 1.5) 0;
+	width: 100%;
+}
+
 fieldset {
 	margin: 15px 520px;
 	text-align: center;
@@ -42,7 +49,6 @@ legend {
 }
 
 body {
-	background-image:
 		url('https://www.xmple.com/wallpaper/linear-blue-white-highlight-gradient-1920x1080-c2-ffffff-e0ffff-l-50-a-165-f-21.svg');
 	background-size: 100%;
 }

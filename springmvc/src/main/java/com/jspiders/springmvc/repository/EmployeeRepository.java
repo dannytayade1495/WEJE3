@@ -82,4 +82,18 @@ public class EmployeeRepository {
 		transaction.commit();
 		closeConnection();
 	}
+
+	public void updateEmployee(int id, String name, String email, long contact, String designation, double salary) {
+		openConnection();
+		transaction.begin();
+		EmployeePOJO employee = manager.find(EmployeePOJO.class, id);
+		employee.setName(name);
+		employee.setEmail(email);
+		employee.setContact(contact);
+		employee.setDesignation(designation);
+		employee.setSalary(salary);
+		manager.persist(employee);
+		transaction.commit();
+		closeConnection();
+	}
 }
