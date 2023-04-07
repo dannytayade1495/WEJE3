@@ -1,8 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%
-String msg = (String) request.getAttribute("msg");
-%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,10 +44,9 @@ body {
 <body>
 
 	<div align="center">
-		<a href="./create">Create Account</a>
-		<form action="./login" method="post">
+		<form action="./create" method="post">
 			<fieldset>
-				<legend>:::Login:::</legend>
+				<legend>:::Create Admin Account:::</legend>
 				<table>
 					<tr>
 						<td>Username</td>
@@ -62,16 +58,8 @@ body {
 					</tr>
 				</table>
 			</fieldset>
-			<input type="submit" value="Login">
+			<input type="submit" value="Create Account">
 		</form>
-		<%
-		if (msg != null) {
-		%>
-		<h3><%=msg%>
-		</h3>
-		<%
-		}
-		%>
 	</div>
 
 </body>
