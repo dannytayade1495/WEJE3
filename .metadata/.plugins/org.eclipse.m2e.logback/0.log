@@ -2908,3 +2908,6 @@ java.lang.ClassCastException: class org.eclipse.wst.common.componentcore.interna
 2023-04-07 17:20:41,269 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-04-07 17:20:41,272 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-04-07 17:20:41,272 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WEJE3\springmvc\src\test\resources
+2023-04-07 17:39:22,580 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@1cc2bd4c{STOPPING}[10.0.12,sto=0]
+2023-04-07 17:39:22,585 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6af91812{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-04-07 17:39:22,594 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13ea9bcf{/help,null,STOPPED}
