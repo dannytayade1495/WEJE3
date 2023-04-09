@@ -9,5 +9,4 @@ INDEX VERSION 1.4+D:\WEJE3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 3987356946.index
 138418123.index
 3239683873.index
-1446278970.index
 3761265960.index

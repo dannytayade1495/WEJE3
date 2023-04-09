@@ -3189,3 +3189,23 @@ java.lang.ClassCastException: class org.eclipse.wst.common.componentcore.interna
 2023-04-08 18:35:29,348 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-04-08 18:35:29,350 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-04-08 18:35:29,350 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\WEJE3\springrest\src\test\resources
+2023-04-08 18:41:53,169 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@7cb2b5d7{STOPPING}[10.0.12,sto=0]
+2023-04-08 18:41:53,232 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@19a17221{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-04-08 18:41:53,285 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@64d0e464{/help,null,STOPPED}
+2023-04-09 10:52:58,940 [Worker-22: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-09 10:54:02,178 [Worker-25: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-09 10:54:20,052 [Worker-25: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jspiders:springboot:0.0.1-SNAPSHOT @ D:\WEJE3\springboot\pom.xml.
+2023-04-09 10:54:40,900 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-09 10:54:41,036 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-09 10:54:41,050 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\WEJE3\springboot\src\test\resources
+2023-04-09 10:54:47,526 [Worker-25: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot/src/main/java
+2023-04-09 10:54:47,527 [Worker-25: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot/src/main/resources
+2023-04-09 10:54:47,532 [Worker-25: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot/src/main/resources
+2023-04-09 10:54:47,972 [Worker-25: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot/src/test/java
+2023-04-09 10:54:48,041 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-09 10:54:52,531 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-09 10:54:52,539 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\WEJE3\springboot\src\test\resources
+2023-04-09 10:55:15,998 [Worker-25: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 35.00 sec, update config takes 38.00 sec 
+2023-04-09 10:55:16,278 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-09 10:55:16,392 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-09 10:55:16,396 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\WEJE3\springboot\src\test\resources
